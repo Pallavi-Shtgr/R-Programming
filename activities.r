@@ -6,7 +6,6 @@ names(msleep)
 
 #?drop_na
 
-#
 is.na(msleep)
 colSums(is.na(msleep))
 summary((is.na(msleep)))
