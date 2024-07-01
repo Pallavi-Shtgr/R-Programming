@@ -12,7 +12,6 @@ gapminder %>%
   sep = 2) %>% 
   View()
 
-
 #using orange dataset & exploring piviot wider
 orange2 <- Orange %>% 
   pivot_wider(names_from ="age",
@@ -38,13 +37,11 @@ unique(starwars$gender)
 
 library(dplyr)
 
-
 #converting datatype into factor (to make it use for categorical analysis)
 starwars$gender1 <- as.factor(starwars$gender)
 #use levels 
 
 ?as.factor
-
 
 class(starwars$gender)
 class(starwars$gender1)
